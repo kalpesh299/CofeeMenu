@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+   height:100vh;
+   width: 100vw;
+   
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+main{
+    
+    height:480px;
+    width:500px;
+    background-color:#deb887;
+    padding: 20px;
+  
+    
+    
+}
+
+.cafe_heading_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 800px;
+}
+hr{
+    border:2px solid #a5212a;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cofee_container_menulist{
+    border:2px solid black;
+    height:120px;
+    width:100%;
+    border:none;
+}
+.cofee_container_menu{
+    width:100%;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
